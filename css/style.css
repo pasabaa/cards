@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+.btn:focus, .btn-close:focus, .btn:active, .btn-close:active {
+    box-shadow: none !important;
+}
+
+.bg-dark-variant{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-blur {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.card-up-body {
+    position: absolute;
+    top: 24rem;
+    height: 100%;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+}
+
+.card-up-title {
+    position: absolute;
+    top: 40%;
+    transition: all 400ms cubic-bezier(.86,.33,0,1.35);
+    -webkit-transition: all 400ms cubic-bezier(.86,.33,0,1.35);
+    -moz-transition: all 400ms cubic-bezier(.86,.33,0,1.35);
+    -ms-transition: all 400ms cubic-bezier(.86,.33,0,1.35);
+    -o-transition: all 400ms cubic-bezier(.86,.33,0,1.35);
+}
+
+.card:hover .card-up-body{
+    top: 0rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.card:hover .card-up-title{
+    top: -50%;
+}
+
+pre {
+    overflow: auto !important;
+    word-wrap: normal !important;
+    white-space: pre !important;
+}
+
+.card .bg-light {
+    color: rgb(24, 24, 24) !important;
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container p-4">
+
+        <div class="row">
+            <div class="col-10 p-4">
+                <h1 class="display-1 fw-bold">Lorem ipsum dolor sit amet.</h1>
+                <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores labore quo, hic minima dolorem illo repellendus ipsum doloribus reprehenderit pariatur.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center flex-column">
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Simple Card</h1>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="h4">Card header</p>
+                    </div>
+                    <div class="card-body">
+                        <h1>Lorem ipsum dolor sit.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta quidem tempora ad sapiente incidunt cumque voluptate dignissimos porro corporis, similique aut. Modi, veritatis.</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="h4">Card Footer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#1</span></h1>
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-primary text-white border-0">
+                        <p class="h4">Card header</p>
+                    </div>
+                    <div class="card-body">
+                        <h1>Lorem ipsum dolor sit.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta quidem tempora ad sapiente incidunt cumque voluptate dignissimos porro corporis, similique aut. Modi, veritatis.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <p class="h4">Card Footer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#2</span></h1>
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h1>Lorem ipsum dolor sit.</h1>
+                        <div class="my-4">
+                            <span class="badge bg-primary">Primary</span>
+                            <span class="badge bg-primary">Primary</span>
+                        </div>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta quidem tempora ad sapiente incidunt cumque voluptate dignissimos porro corporis, similique aut. Modi, veritatis.</p>
+                    </div>
+                    <div class="card-footer bg-primary border-0">
+                        <p class="h4 text-white">Card Footer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#3</span></h1>
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h1 class="display-4 fw-bold text-primary">Lorem ipsum dolor sit.</h1>
+                        <h2 class="text-muted fw-light">Lorems ipsum</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta quidem tempora ad sapiente incidunt cumque voluptate dignissimos porro corporis, similique aut. Modi, veritatis.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0">
+                        <div class="d-flex justify-content-between align-items-center gap-2">
+                            <div class="form-group">
+                                <button class="btn btn-sm fw-bold fs-4"><i class="bi bi-arrow-up-circle"></i></button>
+                                <button class="btn btn-sm fw-bold fs-4"><i class="bi bi-arrow-down-circle"></i></button>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-sm fw-bold">More...</button>
+                                <button class="btn btn-primary btn-sm fw-bold"><i class="bi bi-share"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#4</span></h1>
+
+                <div class="form-group mb-4">
+                    <label class="form-label fw-bold" for="color">Choose a color</label>
+                    <select class="form-select" name="color" id="color">
+                        <option value="primary">Primary</option>
+                        <option value="secondary">Secondary</option>
+                        <option value="success">Success</option>
+                        <option value="info">Info</option>
+                        <option value="warning">Warning</option>
+                        <option value="danger">Danger</option>
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                    </select>
+                    <button class="btn btn-sm btn-light mt-2" id="btnSubmit" type="submit">Apply</button>
+                </div>
+
+                <div class="card border-0 shadow-sm">
+                    <div id="card-change-color" class="card-header border-0 bg-primary text-white">
+                        <div class="d-flex justify-content-between">
+                            <h2 class="display-2 fw-bold">Lorem ipsum</h2>
+                            <button type="button" class="btn-close btn-sm" aria-label="Close"></button>
+                        </div>
+                        <div class="mb-4">
+                            <span class="badge bg-danger">Danger</span>
+                            <span class="badge bg-danger">Danger</span>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="p-4">
+                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta quidem tempora ad sapiente incidunt cumque voluptate dignissimos porro corporis, similique aut. Modi, veritatis.</p>
+                        </div>
+                        <img src="https://picsum.photos/1920/1080" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#5</span></h1>
+                <div class="card bg-dark text-white border-0 position-relative overflow-hidden">
+                    <img src="https://picsum.photos/1920/1080" class="card-img" alt="...">
+                    <div class="card-img-overlay bg-dark-variant justify-content-center align-items-center d-flex flex-column">
+                        <div class="text-normal d-flex align-items-center card-up-title flex-column">
+                            <h5 class="display-1 fw-bold ">Hover me</h5>
+                            <h6 class="text-muted">For more info...</h6>
+                        </div>
+                        <div class="text-normal p-4 card-up-body">
+                            <h5 class="display-1 fw-bold">Card title</h5>
+                            <p class="lead">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <span class="badge bg-dark">Last updated 3 mins ago</span>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-6 col-12 p-4">
+                <h1 class="fw-bold my-4">Card <span class="fw-light text-muted">#6</span></h1>
+                <div class="card bg-dark text-white border-0 position-relative overflow-hidden">
+                    <img src="https://picsum.photos/1920/1080" class="card-img" alt="...">
+                    <div class="card-img-overlay bg-blur d-flex flex-column justify-content-center p-4">
+                        <h5 class="display-1 fw-bold ">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="card-footer bg-transparent border-0 p-0">
+                            <div class="d-flex justify-content-between gap-2 flex-column">
+                                <p class="m-0 fw-bold">Share on:</p>
+                                <div class="form-group">
+                                    <a href="https://www.facebook.com/" target="blank" class="p-0 me-2 btn btn-sm fw-bold fs-4 text-white"><i class="bi bi-facebook"></i></a>
+                                    <a href="https://www.facebook.com/" target="blank" class="p-0 me-2 btn btn-sm fw-bold fs-4 text-white"><i class="bi bi-messenger"></i></a>
+                                    <a href="https://www.facebook.com/" target="blank" class="p-0 me-2 btn btn-sm fw-bold fs-4 text-white"><i class="bi bi-whatsapp"></i></a>
+                                    <button class="p-0 me-2 btn btn-sm fw-bold fs-4 text-white"><i class="bi bi-three-dots-vertical"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
