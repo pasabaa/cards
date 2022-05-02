@@ -1,7 +1,7 @@
-let btnSunmit = document.querySelector('#btnSubmit');
+let inputSelect = document.querySelector('.form-select');
 var cardColor = document.querySelector('#card-change-color');
 
-btnSunmit.addEventListener('click', () => {
+inputSelect.addEventListener('change', () => {
     var color = document.querySelector('#color').value;
     changeColor(color);
 });
